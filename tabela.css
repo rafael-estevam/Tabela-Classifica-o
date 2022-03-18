@@ -1,0 +1,123 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    margin-top: 50px;
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://img.freepik.com/fotos-gratis/estadio-de-futebol-com-holofotes_163782-3550.jpg?w=740");
+    background-color: #111;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .add, .delete{
+      width: 30%;
+  }
+
+  button, input {
+    cursor: pointer;
+  }
+
+  .add button{
+    margin-top: 5px;
+    background-color: #3562A6;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 10px;
+  }
+
+  .delete button {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #3562A6;
+    color: #ffffff;
+    width: 100px;
+    padding: 5px 10px;
+  }
+
+  .title {
+      width: 40%;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid #6594C0;
+    border-spacing: 0;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 2px #6594C0;
+    background-color: #0E1E5B;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 0.5em;
+  }
+
+  td img {
+    width: 70px;
+    height: 90px;
+  }
+
+  .vitoria, .derrota, .empate {
+    border-radius: 7px;
+    padding: 0.25em 1.25em;
+    color: #ffffff;
+    font-weight: 550;
+    text-shadow: .5px .5px black;
+  }
+
+  .vitoria {
+    background-color: green;
+  }
+
+  .derrota{
+    background-color: red;
+  }
+
+  .empate {
+    background-color: gray;
+  }
